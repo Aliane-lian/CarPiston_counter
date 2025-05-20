@@ -13,6 +13,24 @@ This repository provides a complete solution for detecting and counting car pist
 - 'piston detection.v1i.yolov8/'  
   Directory containing the labeled dataset (images, annotations, config files).
 
+## Requirements
+
+Python 3.10 or higher
+
+ultralytics
+
+fastapi
+
+uvicorn
+
+opencv-python
+
+numpy
+
+pillow
+
+python-multipart
+
 ## How to Use
 
 ### 1. Clone the Repository
