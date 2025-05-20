@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['P1', 'P2', 'P3', 'P4', 'objects']
+
+roboflow:
+  workspace: pistoncounter-nlonh
+  project: piston-detection-q9yj3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pistoncounter-nlonh/piston-detection-q9yj3/dataset/1
